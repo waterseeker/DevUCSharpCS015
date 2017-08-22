@@ -18,6 +18,9 @@ namespace DevUCSharpCS_ASP_015
         {
             // Days.Hour.Minutes:Seconds.Milliseconds
             //TimeSpan myTimeSpan = TimeSpan.Parse("7.7.7:7.7");
+
+            DateTime myBirthday = DateTime.Parse("12/7/1969");
+            TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
         }
     }
 }
